@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+:root{
+    --mainBg : #d2c3a0;
+    --lightBg : #ecc5c5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+header{
+    font-family: 'Acme', sans-serif;
+    background-color: var(--mainBg);
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+main{
+    background-color: #FFF6EA;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+main h2{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    padding:15px;
+}
+
+section{
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    background-color: #fdf3ea;
+    padding: 25px;
+}
+
+section h2{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+footer{
+    font-family: 'Acme', sans-serif;
+    display: flex;
+    background-color: var(--mainBg);
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    color: white;
+}

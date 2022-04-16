@@ -1,0 +1,203 @@
+.myLogo{
+    display: flex;
+    align-items: center;
+}
+
+.myLogo img{
+    width: 65px;
+    padding: 0 25px;
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+}
+
+.searchBar input{
+    width: 25vw;
+    height: 30px;
+    margin: 0 10px 0 50px;
+    padding: 0 12px;
+}
+
+.btn {
+    font-family: 'Acme', sans-serif;
+    padding: 4px 8px;
+    color: white;
+    background-color: var(--mainBg);
+    border: 2px solid;
+    border-radius: 7px;
+    cursor: pointer;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btnCard{
+    position: relative;
+    left: 65%;
+}
+
+.btn:hover{
+    color: var(--mainBg);
+    background-color: white;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px;
+}
+
+.cardItem{
+    background-color: var(--lightBg);
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    margin:20px;
+    padding: 10px;
+    border: 2px solid;
+    width: 300px;
+    height: 200px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+
+.cardItem:hover{
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.cardItem img{
+    width: 100px;
+    padding: 0 35px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+.services{
+    display: flex;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fdf3ea;
+    height: 40vh;
+    margin-bottom: 20px;
+}
+
+.content{
+    position: relative;
+    top: 30%;
+    left: 15%;
+    font-family: 'Acme', sans-serif;
+}
+.content h2{
+    padding: 10px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.content p{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.servicesContent{
+    font-family: 'Acme', sans-serif;
+    padding: 25px;
+    position: relative;
+    top: 10%;
+    left: 35%;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.servicesContent ul li{
+    list-style: square;
+}
+
+.reviewCard{
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+    margin:20px;
+    padding: 10px;
+    border: 2px solid;
+    width: 320px;
+    height: 300px;
+    letter-spacing: 2px;
+    /* line-height: 25px; */
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 20px;
+}
+
+.reviewCard:hover{
+    box-shadow: 4px 6px 12px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#review{
+    margin: 0 80px;
+    width: 100px;
+    padding: 0 30px;
+}
+
+.reviewCard h3{
+    text-align: center;
+    padding: 12px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+h4{
+    text-align: center;
+    padding: 12px;
+    font-size: 25px;
+    margin: 12px 0;
+    letter-spacing: 1px;
+    font-family: 'Acme', sans-serif;
+}
+
+.reviewCard p{
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.titleUnderline{
+    margin: 0 auto;
+    border-bottom: 4px solid purple;
+    width: 122px;
+    height: 20px;
+    margin-top: -16px;
+}
+
+.titleUnderline2{
+    margin: 0 auto;
+    border-bottom: 4px solid purple;
+    width: 180px;
+    height: 20px;
+    margin-top: -26px;
+}
+
+/* Contact page css */
+
+.contact{
+    height: calc(100vh - 65px - 10vh)
+}
+
+.contact h1{
+    text-align: center;
+    padding: 12px;
+}
+
+.contact p{
+    padding: 12px;
+    font-size: 20px;
+}
+
